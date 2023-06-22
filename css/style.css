@@ -33,8 +33,8 @@ body::before {
     background: var(--color-darkblue);
     background-image: linear-gradient(
         115deg,
-        rgba(58, 58, 158, 0.8),
-        rgba(136, 136, 206, 0.7)
+        rgba(0, 0, 2, 0.534),
+        rgba(255, 255, 255, 0.466)
       ),
       url(https://s1.1zoom.me/big3/290/Porsche_918_SpyderGold_450969.jpg);
     background-size: cover;
@@ -118,7 +118,6 @@ button{
 /* FORM */
 
 form{
-    background-color: darkcyan;
     padding: 2.5rem 0.625rem;
     border-radius: 0.25rem;
 }
@@ -159,4 +158,21 @@ form{
     margin-right: 0.625rem;
     min-height: 1.25rem;
     min-width: 1.25rem;
+}
+
+.input-textarea{
+    min-height: 120px;
+    width: 100%;
+    padding: 0.625rem;
+    resize: vertical;
+}
+
+.submit-button{
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background: green;
+    color: inherit;
+    border-radius: 2px;
+    cursor: pointer;
 }
