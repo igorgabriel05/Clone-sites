@@ -16,6 +16,10 @@ body {
     height: auto;
   }
 
+h1{
+    font-family: 'Times New Roman';
+}
+
   h1,
   h2,
   h3 {
@@ -53,7 +57,7 @@ body {
   }
   #showcase h1{
     font-size: 50px;
-    color: #ff0000;
+    color: #00ff73;
   }
 
   #showcase .bg-image {
@@ -120,6 +124,10 @@ body {
   #section-c p{
     text-align: left;
     padding: 0;
+  }
+
+  #section-c .content-title{
+    color: red;
   }
 
   /* Section D / Boxes */
